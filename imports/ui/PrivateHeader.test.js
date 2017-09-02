@@ -1,4 +1,4 @@
-import { Metoer } from 'meteor/meteor';
+import { Meteor } from 'meteor/meteor';
 import React from 'react';
 import expect from 'expect';
 import { mount } from 'enzyme';
