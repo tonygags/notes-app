@@ -20,6 +20,8 @@
     top: $header-height;
     left: -100vw;
     bottom: 0;
+    // Ensure sidebar appears on top
+    z-index: 1;
 
     @include desktop {
        display: flex;
