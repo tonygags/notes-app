@@ -41,11 +41,10 @@ $header-color: white;
 $header-height: 6rem;
 
 // Item
-$item-bg: $light-grey;
-$item-border: darken($item-bg, 8%);
-$item-text-color: $dark-grey;
+$item-border-width: 4px;
 
 // Page Content
 $page-content-sidebar-width: 30rem;
 $page-content-main-width: calc(#{$site-max-width} - #{$page-content-sidebar-width});
 $page-content-height: calc(100vh - #{$header-height});
+
