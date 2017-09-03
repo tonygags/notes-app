@@ -10,10 +10,9 @@ import NoteListEmptyItem from './NoteListEmptyItem';
 
 export const NoteList = (props) => {
 
-
     return (
         <div className="item-list">
-            <NoteListHeader />
+        <div><NoteListHeader /></div>
            { props.notes.length === 0 ?  <NoteListEmptyItem /> : undefined}
             {props.notes.map((note) => {
                 return <NoteListItem key={note._id} note={note}/>
